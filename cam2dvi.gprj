@@ -1,0 +1,60 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AST-138C" pn="GW5AST-LV138PG484AC1/I0">gw5ast138c-007</Device>
+    <FileList>
+        <File path="src/red_region_overlay.v" type="file.verilog" enable="1"/>
+        <File path="src/red_components.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_open/tmds_encoder_pipe.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_open/dvi_reset_domains.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_open/dvi_tx_open.v" type="file.verilog" enable="1"/>
+        <File path="src/denoise/dn_otsu.v" type="file.verilog" enable="1"/>
+        <File path="src/denoise/dn_histogram.v" type="file.verilog" enable="1"/>
+        <File path="src/denoise/dn_serial_mul.v" type="file.verilog" enable="1"/>
+        <File path="src/denoise/dn_auto_threshold.v" type="file.verilog" enable="1"/>
+        <File path="src/denoise/dn_window3.v" type="file.verilog" enable="1"/>
+        <File path="src/denoise/edge_denoise.v" type="file.verilog" enable="1"/>
+        <File path="src/edge_otsu256.v" type="file.verilog" enable="1"/>
+        <File path="src/edge_otsu_mul.v" type="file.verilog" enable="1"/>
+        <File path="src/edge_otsu_probe.v" type="file.verilog" enable="1"/>
+        <File path="src/edge_jet565.v" type="file.verilog" enable="1"/>
+        <File path="src/edge_color_mux.v" type="file.verilog" enable="1"/>
+        <File path="src/edge_otsu_key.v" type="file.verilog" enable="1"/>
+        <File path="src/video_processing.v" type="file.verilog" enable="1"/>
+        <File path="src/image_hud.v" type="file.verilog" enable="1"/>
+        <File path="src/image_keys.v" type="file.verilog" enable="1"/>
+        <File path="src/image_settings_cdc.v" type="file.verilog" enable="1"/>
+        <File path="src/reset_release.v" type="file.verilog" enable="1"/>
+        <File path="src/dvp_rgb565_capture.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_reset_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_memory_interface/DDR3MI_400M.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx/DVI_TX_Top.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/video_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_osc/gowin_osc.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/TMDS_PLL_60HZ.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/TMDS_PLL_60HZ_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll_400M.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll_400M_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_config.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_bit_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_byte_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master_top.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/timescale.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master_gw/gw_i2c_lut_date_write.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master_gw/i2c_master/i2c_master_gw.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master_gw/i2c_master_gw_init.v" type="file.verilog" enable="1"/>
+        <File path="src/lut_ov5640_rgb565_1280_720.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_init.v" type="file.verilog" enable="1"/>
+        <File path="src/sccb_master/sccb_init_top.v" type="file.verilog" enable="1"/>
+        <File path="src/sccb_master/sccb_sender.v" type="file.verilog" enable="1"/>
+        <File path="src/testpattern.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/vga_timing.v" type="file.verilog" enable="1"/>
+        <File path="src/video_frame_buffer/Video_Frame_Buffer_Top.v" type="file.verilog" enable="1"/>
+        <File path="src/138K_DOCK.cst" type="file.cst" enable="1"/>
+        <File path="src/TMDS_60HZ.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

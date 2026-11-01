@@ -1,0 +1,15 @@
+# Gowin 综合与布局布线中间文件
+impl/gwsynthesis/
+impl/temp/
+impl/pnr/*.fs
+impl/pnr/*.rao
+impl/pnr/*.sdf
+impl/pnr/*.pnxrc
+impl/pnr/*_tr_content.html
+impl/pnr/*.bak
+impl/backup/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
